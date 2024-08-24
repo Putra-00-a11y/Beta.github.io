@@ -1,0 +1,177 @@
+*,
+html {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: white;
+    color: black;
+}
+
+#textHead {
+    position: relative;
+    top: 20px;
+    left: 7px;
+    text-decoration: underline;
+    font-size: .8em;
+    font-family: arial;
+    font-weight: 600;
+    font-style: normal;
+    font-variant: normal;
+    opacity: 90%;
+    cursor: default;
+}
+
+#dataInject {
+    position: relative;
+    top: 30px;
+    left: 7px;
+    border-radius: 8px;
+    padding: 7px;
+}
+
+#buttonLaunch {
+    position: relative;
+    top: 30px;
+    left: 10px;
+    padding: 3px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+    border: 1px solid lightgray;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#buttonLaunch:hover {
+    transition: 200ms ease-in-out;
+    transition-delay: 0s;
+    transition-timing-function: linear;
+    background-color: black;
+    color: white;
+    opacity: 90%;
+}
+
+#pText {
+    position: relative;
+    top: 550px;
+    left: 50px;
+    font-size: 1em;
+    font-family: Verdana;
+    font-variant: normal;
+    font-style: italic;
+    opacity: 0%;
+    cursor: default;
+    animation-name: textAnimationInject;
+    animation-duration: 1.7s;
+    animation-delay: 300ms;
+    animation-timing-function: linear;
+    animation-direction: normal;
+    animation-iteration-count: infinite;
+}
+
+@keyframes textAnimationInject {
+    0% {
+        opacity: 0%;
+    }
+
+    50% {
+        opacity: 50%;
+    }
+
+    100% {
+        opacity: 0%;
+    }
+}
+
+#submitHead {
+    position: relative;
+    top: 20px;
+    left: 110px;
+    text-decoration: underline;
+    opacity: 90%;
+    cursor: default;
+}
+
+#buttonSure, #buttonBack {
+    position: relative;
+    top: 40px;
+    left: 65px;
+    border: 1px solid lightgray;
+    border-radius: 7px;
+    margin-left: 25px;
+    padding: 10px;
+    font-size: 1.1em;
+    font-family: 'Times New Roman';
+    font-weight: 600;
+    font-variant: normal;
+    font-style: italic;
+    opacity: 90%;
+    cursor: pointer;
+}
+
+#buttonSure:hover {
+    transition: 200ms ease-in-out;
+    transition-delay: 0s;
+    transition-timing-function: linear;
+    background-color: black;
+    color: white;
+    opacity: 80%;
+}
+
+#buttonBack:hover {
+    transition: 200ms ease-in-out;
+    transition-delay: 0s;
+    transition-timing-function: linear;
+    background-color: black;
+    color: white;
+    opacity: 80%;
+}
+
+#nopeHead {
+    position: relative;
+    top: 20px;
+    left: 50px;
+    font-size: 1.3em;
+    font-family: arial;
+    font-weight: 500;
+    font-style: italic;
+    opacity: 90%;
+    cursor: default;
+}
+
+#nopeText {
+    position: relative;
+    top: 55px;
+    left: 50px;
+    font-size: 1em;
+    font-family: verdana;
+    font-style: normal;
+    font-weight: 600;
+    opacity: 90%;
+    cursor: default;
+}
+
+#buttonNope {
+    position: relative;
+    top: 65px;
+    left: 80px;
+    padding: 5px;
+    border: 1px solid lightgray;
+    border-radius: 4px;
+    font-size: 1.1em;
+    font-family: monospace;
+    font-style: normal;
+    font-variant: normal;
+    opacity: 90%;
+    cursor: pointer;
+}
+
+#buttonNope:hover {
+    transition: 200ms ease-out;
+    transition-delay: 0s;
+    transition-timing-function: linear;
+    background-color: black;
+    color: white;
+    opacity: 80%;
+}
